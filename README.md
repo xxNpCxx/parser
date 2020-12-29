@@ -6,7 +6,7 @@ WEB Парсер основанный на xpath выражениях.
  - Может парсить картинки.
  - Может группировать парсеры.
 
-# installation
+# Установка
 clone repository
 cd parser
 composer install
@@ -21,11 +21,11 @@ composer install
 - TextParser - Используется для выборки текста. Не имеет вложенных парсеров.
 - ImageParser - Используется для загрузки изображения во временное хранилище, возвращает путь до файла.
 
-# usage
+# Запуск
 ```
 php index.php
 ```
-# Пример парсинга rbc новостной ленты со вложенными данными
+# Пример клиентского кода для парсинга rbc новостной ленты со вложенными данными
 ```php
 $RBCParser = new PageParser("https://rbc.ru");
 $block = new BlockParser('news', "//div[@class='js-news-feed-list']/a");
