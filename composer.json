@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/rbkparser",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "xxNpCxx",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "ext-dom": "*",
+    "vendor/guzzlehttp/guzzle": "^7.2",
+    "ext-mbstring": "*",
+    "ext-gd": "*"
+  }
+}
