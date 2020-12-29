@@ -1,5 +1,10 @@
 # parser
-MultiLevel site parser based on composite pattern
+WEB Парсер основанный на xpath выражениях.
+
+Возможности:
+ - Может выбирать стратегию дальнейшего парсинга в зависимости от данных полученных в процессе парсинга url.
+ - Может парсить картинки.
+ - Может группировать парсеры.
 
 # installation
 clone repository
